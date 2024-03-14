@@ -141,3 +141,153 @@ a:hover{
     color: #7E7E7E;
     font-size: 18px;
   }
+
+.brands{
+    height:403.28px; 
+    width: auto;
+    background-color:#F5F5F5 ;
+    padding: 6% 0 0 0;
+}
+
+.weve{
+    text-align: center;
+    font-weight: bold;
+    font-size:24px ;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.howto{
+     text-align: center;
+     margin: 80px 0 0 0;
+}
+
+.howto h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.howto p{
+    font-size:18px;
+    font-weight: medium;
+    color: #7E7E7E;
+}
+
+.dadsample{
+    display: flex;
+    justify-content: center;
+}
+
+.sample{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8%;
+    width: 80%;
+    margin-top: 80px;
+}
+
+.middlenumber{
+    background-color: white;
+    width: fit-content;
+    box-shadow: 0px 0px 30px 7px rgba(0, 0, 0, 0.082);
+    padding: 10px 17px;
+    border-radius: 50%;
+    font-size:18px ;
+    font-weight: bold;
+}
+
+.dadsamplelast{
+    margin-bottom: 80px;
+}
+
+.freeandeasy{
+    width: 100%;
+    background-color: #F5F5F5 ;
+    padding: 0 10% 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10%;
+    padding: 80px 0 80px 0;
+}
+
+.free h1{
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.free p{
+    font-size: 18px;
+    font-weight: medium;
+    line-height: 32px;
+    margin-bottom: 30px;
+    color: #7E7E7E;
+}
+
+.printing{
+    height: 240px;
+    width: 100%;
+    background-color: #F5F5F5;
+    text-align: center;
+    justify-content: center;
+    padding: 3% 0 0 0;
+}
+
+.printing h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.printing p{
+    font-size:18px;
+    font-weight: medium;
+    /* margin-bottom: 80px; */
+    color: #7E7E7E;
+}
+
+.premium{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: #F5F5F5;
+    padding: 50px 0 0 0 ;
+}
+
+
+.premiumleft p{
+    /* align-items: top; */
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.easyto{
+    width:494px ;
+    height: 156px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 15px  50px 0px rgba(0, 0, 0, 0.11); 
+    padding: 25px 0 0 25px;
+    margin-bottom: 60px;
+    position: relative;
+    left: -25px;
+}
+
+.easyto p{
+    font-size: 20px;
+    /* margin: 2px; */
+}
+
+.easyto span{
+    margin-top: 30px;
+    color: #7E7E7E;
+    font-size: 16px;
+}
