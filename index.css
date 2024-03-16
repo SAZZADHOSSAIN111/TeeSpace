@@ -59,7 +59,7 @@ a:hover{
 }
 
 .dadhero{
-    margin: 0 10%;
+    margin: 0 10%  5%;
     display: flex;
 }
 
@@ -290,4 +290,248 @@ a:hover{
     margin-top: 30px;
     color: #7E7E7E;
     font-size: 16px;
+}
+
+.slide{
+    padding: 0 10% 3%;
+    /* background-color: red; */
+    display: flex;
+    /* align-items: center; */
+    position: relative;
+    margin: 80px 0 0 0px;
+    /* column-gap: 20px; */
+    justify-content: space-between;
+
+}
+
+.slide1stp{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.slide2stp{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2EBB77;
+    text-align: center;
+}
+.slide2stpp{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.slide2stp span{
+    font-size: 14px;
+    font-weight: medium;
+    color: #9B9B9B;
+    text-align: center;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.slide3rdp{
+    position: absolute;
+    top: 10px;
+    margin: 0 0 0 10px;
+    background-color: #2EBB77;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 3px;
+    line-height: 23px;
+}
+.slide3rdppp{
+    position: absolute;
+    top: 10px;
+    margin: 0 0 0 10px;
+    background-color: #F09155;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 3px;
+    line-height: 23px;
+}
+.slide3rdpp{
+    position: absolute;
+    top: 45px;
+    margin: 0 0 0 10px;
+    background-color: #B479D9;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 3px;
+    line-height: 23px;
+}
+
+.circles{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    column-gap: 10px;
+    align-items: center;
+}
+
+
+.circle1 {
+    height: 15px; 
+    width: 15px; 
+    background-color: black;
+    border-radius: 50%; 
+    border: 3px solid white; 
+    box-shadow: 0 0 0 1px black;
+}
+.circle2 {
+    height: 15px; 
+    width: 15px; 
+    background-color: #D7A983;
+    border-radius: 50%; 
+    border: 3px solid white; 
+    box-shadow: 0 0 0 1px black;
+}
+.doublecard{
+    display: flex;
+    justify-content: center;
+    column-gap: 2%;
+    padding: 0 0 3% 0;
+}
+
+.card1{
+    background-image: url(Link\ →\ banner-26.png);
+    height:360px ;
+    width: 690px;
+    border-radius:12px;
+    padding: 3% 0 0 3%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.card2{
+    background-image: url(Link\ →\ banner-27.jpg);
+    height:360px ;
+    width: 690px;
+    border-radius:12px;
+    padding: 3% 0 0 3%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.butttoncard{
+    margin: 30px 0;  
+}
+
+
+.customize{
+    position: relative;
+    height: 1150px;
+    width: 100%;
+    background-color:#F5F5F5 ;
+    z-index: -2;
+    padding: 5% 12.5% 5% 12.5%;
+    display: flex;
+}
+
+.custom-shape-divider-top-1710530305 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+}
+
+.custom-shape-divider-top-1710530305 svg {
+    position: relative;
+    display: block;
+    width: calc(277% + 1.3px);
+    height: 350px;
+}
+
+.custom-shape-divider-top-1710530305 .shape-fill {
+    fill: #ffffff;
+}
+
+.customize1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 40%;
+}
+
+.customize1 h1{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 60px;
+}
+.customize1 p{
+    font-size: 18px;
+    font-weight: medium;
+    line-height: 32px;
+    color: gray;
+}
+
+.customize1button{
+    width: fit-content;
+    padding:0 2%;
+}
+
+.customizeleft{
+    width: 60%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    row-gap: 4%;
+}
+
+.chart{
+    height: 326px;
+    width: 258px;
+    border-radius: 12px;
+    padding: 10% 0 0 10%;
+    background-color: white;
+    box-shadow: 0 0 10px 0 #00000025;
+}
+
+.chart h1{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    color: black;
+    margin-top: 15px;
+}
+.chart p{
+    font-size: 15px;
+    font-weight: medium;
+    line-height: 27px;
+    color: #7E7E7E;
+    margin-top: 15px;
+
+}
+
+.chartlast{
+    border-radius: 12px;
+    padding: 4% 8%;
+    background-image: url(Link\ →\ banner-28.png);
+    height: 100%;
+    box-shadow: 0 0 10px 0 #00000025;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.chartlast h1{
+    font-size:24px ;
 }
