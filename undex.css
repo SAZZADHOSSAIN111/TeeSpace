@@ -18,7 +18,7 @@ body{
     padding: 0 20px;
 }
 
-ul{
+.ul{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@ ul{
     margin-left: 40%;
 }
 
-li {
+.li {
     column-gap: 5px;
     display: flex;
     align-items: center;
@@ -35,14 +35,14 @@ li {
     font-weight: bold;
 }
 
-a{
+.a{
     display: flex;
     align-items: center;
     color: #000;
     text-decoration: none;
 }
 
-a:hover{
+.a:hover{
     color: #2EBB77;
 }
 .BUtton1{
@@ -535,3 +535,127 @@ a:hover{
 .chartlast h1{
     font-size:24px ;
 }
+
+
+.resources{
+    padding: 5% 10%;
+    height: 595px;
+    width: auto;
+    /* background-color: red; */
+}
+
+.resourcesleftright{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.resourcesleft{
+    display: flex;
+    column-gap: 4%;
+    width: 50%;
+}
+.resourcesright{
+    display: flex;
+    column-gap: 4%;
+    width: 50%;
+}
+
+.saying{
+    /* position: relative; */
+    /* background-color: red; */
+    background-image: url(saying.png);
+    /* height:auto; */
+    width: auto;
+    padding-bottom: 4%;
+}
+
+.profile{
+    height: 324px;
+    width: 450px;
+    padding: 3%;
+    background-color: white;
+    box-shadow: 0 0 10px 0px #00000025;
+    border-radius: 12px;
+}
+
+.prodetails{
+    display: flex;
+    column-gap: 5%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ball{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.ball1{
+    height: 14px;
+    width: 14px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+
+}
+.ball2{
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.Enjoy{
+    background-image: url(div.e-con-inner.png);
+    width: auto;
+    height: 541px;
+    background-color: #B479D915;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Enjoy h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.Enjoy p{
+    font-weight: medium;
+    font-size: 20px;
+    color: #7E7E7E;
+    text-align:center;
+    margin-top: 20px;
+}
+
+.Enjoybuttion{
+    padding: 10px;
+    height: 56px;
+    width: 164.14px;
+    border-radius: 12px;
+    background-color: #2EBB77;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+    margin: 30px 10px;
+}
+.Enjoybuttion1{
+    padding: 10px;
+    height: 56px;
+    width: 164.14px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+    margin: 30px 10px;
+}
+
