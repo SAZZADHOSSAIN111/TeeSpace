@@ -8,14 +8,25 @@ body{
     font-family:"Plus Jakarta Sans";
 }
 
+@media screen {
+    html,body {
+       width: 100%;
+       height: 100%;
+       margin: 0;
+       padding: 0;
+       overflow-x: hidden;
+   }
+}
+
+
 .navbar{
     display: grid;
-    grid-template-columns: auto auto auto;
-    width: 100%;
+    grid-template-columns: auto auto auto auto;
+    width: 100vw;
     height: 99px;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 20px 0 0;
 }
 
 .ul{
@@ -59,8 +70,10 @@ body{
 }
 
 .dadhero{
-    margin: 0 10%  5%;
+    margin: 0 10% ;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lefthero{
@@ -70,6 +83,11 @@ body{
 
 .righthero{
     width: 50%;
+}
+
+.heroimage{
+    width: 100%;
+    /* height: auto; */
 }
 
 .Create{
@@ -89,10 +107,10 @@ body{
       line-height: 81.6px;
 }
 
-.What’s{
+.whats{
     margin: 5% 0;
     font-size: 18px;
-    font-weight: medium;
+    /* font-weight: bold; */
     line-height: 32px;
     color:#7E7E7E ;
 }
@@ -144,15 +162,16 @@ body{
 
 .brands{
     height:403.28px; 
-    width: auto;
+    width: 100%;
     background-color:#F5F5F5 ;
     padding: 6% 0 0 0;
+    margin-top: 50px;
 }
 
 .weve{
     text-align: center;
     font-weight: bold;
-    font-size:24px ;
+    font-size:24px;
 }
 
 .logos{
@@ -785,4 +804,40 @@ body{
 }
 .column4 input:focus {
     outline: none;
+}
+
+.navbar-search-icon2{
+    display: none;
+}
+
+.navbar-menu-icon{
+    display: none;
+}
+
+.navbar-responsive-search-icon{
+    display: flex;
+    gap: 20px;
+}
+
+@media only screen and ( max-width:1200px) {
+    .ul{
+        display: none;
+    }
+
+    .navbar-menu-icon{
+        display: block;
+    }
+
+    .navbar-search-icon1{
+        display: none;
+    }
+    .navbar-search-icon2{
+        display: block;
+    }
+
+    .navbar{
+        display: grid;
+        grid-template-columns:auto auto auto;
+    }
+
 }
